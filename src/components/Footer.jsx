@@ -14,13 +14,12 @@ import imgLogoOrange from '../assets/logo-orange.svg'
 export function Footer() {
     return (
         <>
+            <header className={styles.headerFooter}>
+                <p>Fale com a Pigz</p>
+                <img src={imgWhatsapp} alt={'Logo do whatsapp'} />
+                <p><span>95</span>3224-2603</p>
+            </header>
             <div className={styles.globalFooter}>
-                <header className={styles.headerFooter}>
-                    <p>Fale com a Pigz</p>
-                    <img src={imgWhatsapp} alt={'Logo do whatsapp'} />
-                    <p><span>95</span>3224-2603</p>
-                </header>
-
                 <div className={styles.contentFooter}>
                     <img src={imgPigzLogoGray} alt="Loga da Pigz na cor cinza" />
                     <p>Tudo que você precisa.</p>

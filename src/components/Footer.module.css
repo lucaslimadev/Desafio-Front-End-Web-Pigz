@@ -1,6 +1,28 @@
+.headerFooter {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.headerFooter img {
+    margin: 0 0.7rem 0 1.9rem;
+}
+
+.headerFooter span {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 0.4rem;
+}
+
+.headerFooter p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
 .globalFooter {
     padding-right: 1.6rem;
     padding-left: 1.6rem;
+    background-color: var(--white-background-card);
 }
 
 .globalFooter h4 {
@@ -21,29 +43,7 @@
     color: var(--gray-500);
 }
 
-.headerFooter {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 4rem;
-}
-
-.headerFooter img {
-    margin: 0 0.7rem 0 1.9rem;
-}
-
-.headerFooter span {
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin-right: 0.4rem;
-}
-
-.headerFooter p {
-    font-size: 1.6rem;
-    font-weight: 500;
-}
-
 .contentFooter {
-    background-color: var(--white-background-card);
     padding-top: 6.4rem;
 }
 
