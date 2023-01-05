@@ -1,0 +1,121 @@
+.globalFooter {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+}
+
+.globalFooter h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--gray-500);
+}
+
+.globalFooter li {
+    list-style: none;
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    color: var(--gray-600);
+}
+
+.globalFooter a {
+    text-decoration: none;
+    color: var(--gray-500);
+}
+
+.headerFooter {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.headerFooter img {
+    margin: 0 0.7rem 0 1.9rem;
+}
+
+.headerFooter span {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 0.4rem;
+}
+
+.headerFooter p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.contentFooter {
+    background-color: var(--white-background-card);
+    padding-top: 6.4rem;
+}
+
+.contentFooter p:nth-child(1) {
+    font-size: 1.1rem;
+    color: var(--gray-500);
+    line-height: 1.1rem;
+}
+
+.appFooter {
+    padding-top: 2.4rem;
+}
+
+.appFooter p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.appFooter img {
+    display: inline-block;
+    margin-right: 1rem;
+    padding-top: 1.6rem;
+}
+
+.aboutFooter {
+    padding-top: 6.4rem;
+}
+
+.contactFooter {
+    padding-top: 6.5rem;
+    padding-bottom: 2.4rem;
+}
+
+.contactFooter div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.socialLinksFooter div {
+    padding: 1.6rem 0 6.6rem 0;
+}
+
+.socialLinksFooter a {
+    margin-right: 1.5rem;
+}
+
+.line {
+    height: 1px;
+    background-color: var(--gray-400);
+    margin-bottom: 1.6rem;
+}
+
+.infoFooter a {
+    font-size: 1.2rem;
+    margin-right: 3rem;
+    color: var(--gray-600);
+}
+
+.copyFooter {
+    padding: 2.4rem 0 2.9rem 0;
+    display: flex;
+    gap: 3.1rem
+}
+
+.copyFooter p {
+    font-size: 1rem;
+    color: var(--gray-500);
+    line-height: 1.6rem;
+}
+
+.lineOrange {
+    height: 5px;
+    background-color: var(--orange-300);
+}
