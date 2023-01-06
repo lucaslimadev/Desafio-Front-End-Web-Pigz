@@ -102,3 +102,16 @@
 .contentInfoDescription h3 {
   margin: 0 4rem;
 }
+
+
+@media (max-width: 375px) {
+  .cardCarousel img {
+    height: 19rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .cardCarousel img {
+    height: 20rem;
+  }
+}

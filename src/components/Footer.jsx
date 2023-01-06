@@ -28,8 +28,8 @@ export function Footer() {
                 <div className={styles.appFooter}>
                     <p>Baixe o App</p>
                     <div>
-                        <img src={imgAppStore} alt="Selo da Apple Store" />
-                        <img src={imgGooglePlay} alt="Selo da Google Play" />
+                        <a href="#"><img src={imgAppStore} alt="Selo da Apple Store" /></a>
+                        <a href="#"><img src={imgGooglePlay} alt="Selo da Google Play" /></a>
                     </div>
                 </div>
 
