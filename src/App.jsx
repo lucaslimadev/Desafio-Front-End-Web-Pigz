@@ -74,12 +74,10 @@ export function App() {
         </p>
 
         <div className={styles.carouselCards}>
-          <div className={styles.selectionCard}>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          <div className={styles.selectionCard}></div>
+          <div className={styles.selectionCard}></div>
+          <div className={styles.selectionCard}></div>
+          <div className={styles.selectionCard}></div>
         </div>
 
         <h3>Pigz Marketplace</h3>
