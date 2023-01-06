@@ -10,4 +10,4 @@
 
 ## Deploy do projeto
 
-[Desafio Front-End Web Pigz](desafio-front-end-web-pigz.vercel.app)
+[Desafio Front-End Web Pigz](https://desafio-front-end-web-pigz.vercel.app/)
