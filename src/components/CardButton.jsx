@@ -1,26 +1,5 @@
 import styles from './CardButton.module.css'
 
-
-/*const cardsList = [
-    {
-        id: 1,
-        card: {
-            title: 'Pigz',
-            description: 'Tudo o que você precisa',
-        },
-        contentDescription: [
-            { type: 'paragraph', content: 'Pigz Marketplace'},
-            { type: 'paragraph', content: 'Página exclusiva'},
-            { type: 'paragraph', content: 'Pigz Gestão Desktop e Mobile'},
-        ],
-        contentFooter: {
-            prince: 'R$199/mês',
-            button: 'Vender no Pigz agora'
-        }
-        
-    }
-]*/
-
 export function CardButton({ title, description, price, buttonTitle }) {
     return (
         <div className={styles.cardButton}>

@@ -2,6 +2,7 @@ import { Header } from './components/Header'
 import { Card } from './components/Card'
 import { CardButton } from './components/CardButton'
 import { Footer } from './components/Footer'
+import { Form } from './components/Form'
 
 import imgBurguer from './assets/burguer_2.png'
 import imgPigzPigz from './assets/pigz-pigz.svg'
@@ -36,36 +37,7 @@ export function App() {
           sua loja prontinha para iniciar as vendas.
         </p>
 
-        <form>
-          <h2>Quero vender no Pigz</h2>
-          <p>Dê o primeiro passo para aumentar suas vendas</p>
-
-          <div>
-            <label htmlFor="">Nome</label>
-            <input
-              type={'text'}
-              placeholder={'Leonercio Goesfeeld'}
-            />
-          </div>
-          <div>
-            <label htmlFor="">E-mail</label>
-            <input
-              type={'email'}
-              placeholder={'leonercio.goesfeeld@email.com'}
-            />
-          </div>
-          <div>
-            <label htmlFor="">Telefone</label>
-            <input
-              type={'text'}
-              placeholder={'(95) 99876-5432'}
-            />
-          </div>
-          <span>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</span>
-          <div>
-            <button>Continuar</button>
-          </div>
-        </form>
+        <Form />
 
         <img src={imgPigzPigz} alt="Imagem da logo pigz" />
       </section>
