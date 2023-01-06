@@ -115,3 +115,9 @@
     height: 20rem;
   }
 }
+
+@media (max-width:390px) {
+  .contentForm img:nth-child(1) {
+    height: 24.5rem;
+  }
+}
